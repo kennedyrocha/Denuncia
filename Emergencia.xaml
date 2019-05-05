@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Denuncie.Emergencia"
+             xmlns:controls="clr-namespace:ButtonCircle.FormsPlugin.Abstractions;assembly=ButtonCircle.FormsPlugin.Abstractions"
+             Title="Denúncia Rápida">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="3" BackgroundColor="OrangeRed"/>
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="40" Margin="10"/>
+
+            <StackLayout>
+                <!-- Place new controls here -->
+                <Grid HorizontalOptions="Fill" Margin="10" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="10" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="110" />
+                        <ColumnDefinition Width="110" />
+                        <ColumnDefinition Width="110" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--fila 1-->
+                    <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleEstupro"
+                                Clicked="ImageCircle_Clicked"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Estupro"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleAcidente"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                Clicked="ImageCircle_Clicked"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Acidente"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleRoubo"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                Clicked="ImageCircle_Clicked"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Roubo"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="0" Grid.Row="2" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleIncendio"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                Clicked="ImageCircle_Clicked"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Incendio"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" Grid.Row="2" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleAgressão"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                Clicked="ImageCircle_Clicked"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Agressão"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="2" Grid.Row="2" HorizontalOptions="Fill">
+                        <RelativeLayout>
+                            <Button BorderRadius="40"
+                                x:Name="ImageCircleSaude"
+                                BackgroundColor="OrangeRed"
+                                HeightRequest="80" WidthRequest="80"
+                                Clicked="ImageCircle_Clicked"
+                                RelativeLayout.XConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Property=Width,
+                                                                Factor=.5,
+                                                                Constant = -40}"
+                                                                RelativeLayout.YConstraint="{ConstraintExpression
+                                                                Type=RelativeToParent,
+                                                                Factor=0,
+                                                                Property=Y}" />
+
+                        </RelativeLayout>
+                        <Label Text="Saúde em Risco"
+                           HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="40" Margin="10"/>
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="40" Margin="10">
+                <Button Text="Faça uma Denúncia Detalhada"
+                    x:Name="btdenunciaDetalhada"
+                    Clicked="BtdenunciaDetalhada_Clicked"
+                    TextColor="White"
+                    BackgroundColor="OrangeRed"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\bin\Debug\netstandard2.0\Denuncie.deps.json
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\bin\Debug\netstandard2.0\Denuncie.dll
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\bin\Debug\netstandard2.0\Denuncie.pdb
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.csprojAssemblyReference.cache
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.csproj.CoreCompileInputs.cache
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.AssemblyInfoInputs.cache
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.AssemblyInfo.cs
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.dll
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncie.pdb
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Emergencia.xaml.g.cs
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\Denuncia.xaml.g.cs
+C:\Users\Kennedy\source\repos\Denuncie\Denuncie\Denuncie\obj\Debug\netstandard2.0\XamlC.stamp

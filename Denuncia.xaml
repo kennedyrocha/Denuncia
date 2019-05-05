@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="Denuncie.Denuncia"
+             Title="Denúncia Detalhada">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="3" BackgroundColor="OrangeRed"/>
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="33"/>
+
+            <StackLayout>
+                <!-- Place new controls here -->
+                <Grid HorizontalOptions="Fill" Margin="6" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="85" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="82.2" />
+                        <ColumnDefinition Width="82.2" />
+                        <ColumnDefinition Width="82.2" />
+                        <ColumnDefinition Width="82.2" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--fila 1-->
+                    <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill">
+                        <ImageButton HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand"
+                                   Source="iconeimagem.png"
+                                   BorderColor="OrangeRed"
+                                   BorderWidth="2"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill">
+                        <ImageButton HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    Source="iconeimagem.png"
+                                    BorderColor="OrangeRed"
+                                    BorderWidth="2"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill">
+                        <ImageButton HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    Source="iconeimagem.png"
+                                    BorderColor="OrangeRed"
+                                    BorderWidth="2"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="3" Grid.Row="0" HorizontalOptions="Fill">
+                        <ImageButton HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    Source="iconecamera.png"
+                                    BorderColor="OrangeRed"
+                                    BorderWidth="2"
+                                    x:Name="btEscolherImagem"
+                                    Clicked="BtEscolherImagem_Clicked"/>
+                    </StackLayout>
+
+                </Grid>
+
+                <StackLayout HeightRequest="165"
+                             Orientation="Horizontal"
+                             HorizontalOptions="Fill"
+                             VerticalOptions="Fill"
+                             Margin="10">
+
+                    <Editor x:Name="enDescricao"
+                           Placeholder="Descrição"
+                           PlaceholderColor="Gray"
+                           HorizontalOptions="Fill"
+                           VerticalOptions="Fill"
+                           WidthRequest="330"
+                           BackgroundColor="White"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Margin="6" Orientation="Horizontal">
+                <input:CheckBox Text="Anônimo" Type="Check" />
+            </StackLayout>
+
+            <StackLayout Margin="6" Orientation="Horizontal" BackgroundColor="White">
+                <Grid HorizontalOptions="Fill" BackgroundColor="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="182.2"/>
+                        <ColumnDefinition Width="82.2" />
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Fill">
+                        <ImageButton HorizontalOptions="CenterAndExpand"
+                                     VerticalOptions="CenterAndExpand"
+                                     Source="location6.jpg"
+                                     x:Name="btImageLocation"
+                                     Clicked="BtImageLocation_Clicked"
+                                     BackgroundColor="OrangeRed"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="Fill">
+                        <Label HorizontalOptions="Start"
+                                VerticalOptions="CenterAndExpand"
+                                Text="Localização"
+                                BackgroundColor="White"
+                                TextColor="Black"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2" Grid.Row="0" HorizontalOptions="Fill">
+                        <Button HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                BackgroundColor="OrangeRed"
+                                Text="Enviar"
+                                TextColor="White"
+                                x:Name="btEnviar"
+                                Clicked="BtEnviar_Clicked"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="8"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

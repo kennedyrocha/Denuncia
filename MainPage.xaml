@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Denuncie"
+             x:Class="Denuncie.MainPage"
+             Title="Denuncie Sinop">
+
+    <StackLayout BackgroundColor="White" Margin="10">
+        <StackLayout HeightRequest="250"
+                     Margin="10"/>
+
+        <Button Text="Fazer Denúncia / Pedir Ajuda"
+                TextColor="White"
+                BackgroundColor="OrangeRed"
+                x:Name="btDenunciaAjuda"
+                Clicked="BtDenunciaAjuda_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
